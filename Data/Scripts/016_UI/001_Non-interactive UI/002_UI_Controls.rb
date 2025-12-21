@@ -27,11 +27,11 @@ class ButtonEventScene < EventScene
     addImageForScreen(3, 16, 90, _INTL("Graphics/UI/Controls help/help_usekey"))
     addImageForScreen(3, 16, 236, _INTL("Graphics/UI/Controls help/help_backkey"))
     addLabelForScreen(3, 134, 68, 352, _INTL("Used to confirm a choice, interact with people and things, and move through text. (Default: C)"))
-    addLabelForScreen(3, 134, 196, 352, _INTL("Used to exit, cancel a choice, and cancel a mode. While moving around, hold to move at a different speed. (Default: X)"))
+    addLabelForScreen(3, 134, 196, 352, _INTL("Used to exit, cancel a choice, and cancel a mode. On the map, it opens the Pause Menu and can be held to move at a different speed. (Default: X)"))
 
     addImageForScreen(4, 16, 90, _INTL("Graphics/UI/Controls help/help_actionkey"))
     addImageForScreen(4, 16, 236, _INTL("Graphics/UI/Controls help/help_specialkey"))
-    addLabelForScreen(4, 134, 68, 352, _INTL("Used to open the Pause Menu. Also has various functions depending on context. (Default: Z)"))
+    addLabelForScreen(4, 134, 68, 352, _INTL("Used for various functions depending on context. Held to run if you have running shoes. (Default: Z)"))
     addLabelForScreen(4, 134, 196, 352, _INTL("Press to open the Ready Menu, where registered items and available field moves can be used. (Default: D)"))
 
     set_up_screen(@current_screen)

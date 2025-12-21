@@ -58,7 +58,7 @@ class Game_Player < Game_Character
                     !$PokemonGlobal.surfing && !$PokemonGlobal.bicycle
     return false if jumping?
     return false if pbTerrainTag.must_walk
-    return ($PokemonSystem.runstyle == 1) ^ Input.press?(Input::BACK)
+    return ($PokemonSystem.runstyle == 1) ^ Input.press?(Input::ACTION)
   end
 
   def set_movement_type(type)
