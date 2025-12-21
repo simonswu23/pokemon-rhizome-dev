@@ -1,0 +1,10 @@
+# Rhizome PBS additions for items.
+# Add new item entries below.
+#-------------------------------
+[SWUTEST]
+Name = SWu Test Item
+NamePlural = SWu Test Items
+Pocket = 1
+Price = 0
+Flags = Fling_999
+Description = SWu's Test Item! (CAUTION: HEAVY)
