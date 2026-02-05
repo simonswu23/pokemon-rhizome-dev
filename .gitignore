@@ -1,6 +1,9 @@
 # Audio, Graphics and Plugins folders
 Screenshots/
 
+Data/*.dat
+!Data/messages_core.dat
+
 # Files in the main project folder
 errorlog.txt
 Game.rxproj
