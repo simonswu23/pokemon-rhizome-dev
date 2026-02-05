@@ -5,6 +5,7 @@ Screenshots/
 Data/*
 !Data/*.rxdata
 !Data/Scripts.rxdata
+!Data/*.dat
 !Data/Scripts/
 !Data/messages_core.dat
 
