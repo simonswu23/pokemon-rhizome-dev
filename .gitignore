@@ -1,12 +1,22 @@
 # Audio, Graphics and Plugins folders
 Screenshots/
 
+# .dat files are compiled from PBS/*.txt files
 Data/*.dat
-!Data/messages_core.dat
+# .rxdata files can be auto-generated using unpackd.exe
+Data/*.rxdata
+
+# One major exception - we will continue to include Scripts.rxdata
+# The reason is that the unpackd.exe will directly check for this file
+# and refuse to generate a new file. It will only edit an existing file (to ensure that
+# backups are stored correctly)
+!Data/Scripts.rxdata
+
+# unpackd.exe keeps backups of the old binaries, just in case, but we won't track these backups.
+Data/Backup
 
 # Files in the main project folder
 errorlog.txt
-Game.rxproj
 RGSS*.dll
 
 # Common code editor folders & files
